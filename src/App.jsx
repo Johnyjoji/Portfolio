@@ -5,11 +5,13 @@ import Philosophy from './pages/Philosophy'
 
 function App(){
   return(
-    <div className="w-full h-full bg-slate-900 text-white px-7 ">
+    <div className="w-full min-h-full bg-[#181f2a] text-white">
       <Navbar />
       <Hero />
-      <Story />
-      <Philosophy />
+      <div className="px-7">
+        <Story />
+        <Philosophy />
+      </div>
     </div>
   );
 }

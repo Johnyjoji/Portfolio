@@ -16,7 +16,7 @@ function Navbar(){
 
 
     return(
-        <div className="fixed inset-x-0 top-0 z-20 h-[3em] backdrop-blur-xl px-4 flex justify-between items-center bg-slate-900/80 border-b border-slate-950 select-none">
+        <div className="fixed inset-x-0 top-0 z-20 flex h-[3em] items-center justify-between border-b border-[#252d3a] bg-[#181f2a]/85 px-4 backdrop-blur-xl select-none">
             <div onMouseEnter={clickhandle} onMouseLeave={clickhandle} className='relative'>
                 <button className="border border-transparent
                                 hover:bg-slate-600 transition  rounded-full 
