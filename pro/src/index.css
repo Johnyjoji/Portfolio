@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+body{
+    @apply m-0 p-0;
+}
+
+@font-face{
+    font-family: 'Heather green';
+    src:url('/fonts/Heathergreen.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face{
+    font-family:'Emerland';
+    src:url('/fonts/emerland.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face{
+    font-family:'Nagasaki';
+    src:url('/fonts/nagasaki.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face{
+    font-family:'Racleys';
+    src:url('/fonts/RacleysM.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face{
+    font-family:'Quicklime';
+    src:url('/fonts/Quicklime.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@font-face{
+    font-family:'Signature';
+    src:url('/fonts/Signature.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@theme{
+    --font-heather:'Heather green',sans-serif;
+    --font-emerland:'Emerland',sans-serif;
+    --font-nagasaki:'Nagasaki',sans-serif;
+    --font-racleys:'Racleys',sans-serif;
+    --font-quicklime:'Quicklime',sans-serif;
+    --font-signature:'Signature',sans-serif;
+}
