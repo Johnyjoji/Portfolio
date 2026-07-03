@@ -25,11 +25,10 @@ function Story() {
         lines={STORY_LINES}
         className="w-full font-quicklime text-4xl text-white "
       />
-      <div className="flex w-full h-fit justify-center">
+      <div className="flex w-full h-fit justify-center mt-5">
         <h1 className="text-white text-6xl font-signature">johnyjoji</h1>
       </div>
     </>
-    
   );
 }
 

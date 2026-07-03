@@ -1,6 +1,4 @@
-import React, {useState} from 'react'
-import {Link} from 'react-router-dom'
-
+import  {useState} from 'react'
 function Navbar(){
     const pages=[
         {name:"Home",path:'#'},
@@ -12,7 +10,7 @@ function Navbar(){
     const [isVisible,setIsVisible] = useState(false);
 
     const clickhandle = () => setIsVisible(!isVisible);
-    const itemclick = () => setIsVisible(false);
+    // const itemclick = () => setIsVisible(false);
 
 
     return(
@@ -29,7 +27,7 @@ function Navbar(){
                         <ul className='flex gap-2 flex-col'>
                         {pages.map((page,index)=>(
                                 <li key={index}>
-                                    <a className='text-white h-full w-full' href={page.path} onClick={itemclick}>
+                                    <a className='text-white h-full w-full' href={page.path} >
                                         <div className=" hover:bg-blue-900 rounded-xl px-3 py-1">
                                             {page.name}
                                         </div>
@@ -40,7 +38,7 @@ function Navbar(){
                     </div>
                 )}
             </div>
-            <a href="#" className="font-nagasaki scroll-smooth text-3xl -mb-4">JOHNY JOJI<span className="text-slate-400">.dev</span></a>
+            <a href="#" className="font-nagasaki scroll-smooth text-3xl -mb-2">JOHNY JOJI<span className="text-slate-400">.dev</span></a>
             <button>dark</button>
 
         </div>
