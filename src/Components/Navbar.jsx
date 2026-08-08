@@ -1,9 +1,8 @@
 import  {useState} from 'react'
 function Navbar(){
     const pages=[
-        {name:"Home",path:'#'},
+        {name:"Work",path:'#work'},
         {name:"About",path:'#about'},
-        {name:"Projects",path:'#projects'},
         {name:"Contact",path:'#contact'}
     ];
 
@@ -38,7 +37,7 @@ function Navbar(){
                     </div>
                 )}
             </div>
-            <a href="#" className="font-nagasaki scroll-smooth text-3xl -mb-2">JOHNY JOJI<span className="text-slate-400">.dev</span></a>
+            <a href="#" className="font-nagasaki text-3xl -mb-2">JOHNY JOJI<span className="text-slate-400">.dev</span></a>
             <button>dark</button>
 
         </div>
